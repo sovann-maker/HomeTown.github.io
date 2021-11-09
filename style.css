@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: url(images/angkor1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding-left: 5px;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    font-family: 'Times New Roman';
+    float: left;
+    color: rgb(24, 22, 22);
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 25px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.menu ul li {
+    text-align: right;
+}
+
+ul {
+    float: left;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+.content {
+    width: 1100px;
+    height: auto;
+    color: white;
+    position: relative;
+    padding-top: 5px;
+    font-size: 15px;
+    float: left;
+}
+
+.content .cn {
+    font-family: 'Arial';
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #fff;
+}
+
+.content h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.containers {
+    color: rgb(112, 106, 106);
+    font-size: 15px;
+    font-family: Arial;
+    padding: 1px;
+}
+
+.grid {
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.grid>article {
+    background: rgb(170, 167, 167);
+    border: none;
+    box-shadow: 2px2px6px0px rgba(56, 56, 56, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform .3x;
+}
+
+.grid>article:hover {
+    transform: translateY(5px);
+    box-shadow: 2px2px6px0px rgba(77, 76, 76, 0.3);
+}
+
+.grid>article img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text {
+    padding: 0 20 px 20 px;
+    color: black;
+}
+
+.text h3 {
+    text-transform: uppercase;
+}
+
+.text2 {
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: rgb(15, 15, 15);
+    padding-top: 10px;
+    border: 3px solid black;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #ffff;
+    border: 2px solid black;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid#ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer .social div {
+    padding-top: 5px;
+}
+
+.footer h3 {
+    text-align: center;
+    padding-bottom: 2px;
+}
